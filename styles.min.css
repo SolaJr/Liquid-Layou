@@ -1,0 +1,48 @@
+﻿	background: #FFFFFF;
+	margin: 0;
+}
+main{display:block}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h1{font-size:2em;margin:0.67em 0}
+
+hr{box-sizing:content-box;height:0;overflow:visible}
+
+pre{font-family:monospace, monospace;font-size:1em}
+
+a{background-color:transparent}
+
+abbr[title]{
+border-bottom:none;
+text-decoration:underline;
+text-decoration:underline dotted}
+
+
+b,strong{font-weight:bolder}
+
+
+code,kbd,samp{font-family:monospace, monospace;font-size:1em}
+small,.text--small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}
+sup{top:-0.5em}body{background:#fff;height:100%;font-weight:400;font-family:"IBM Plex Serif",Georgia,Cambria,"Times New Roman",Times,serif;font-size:1rem;line-height:1.5rem;text-align:left;color:#205060;-webkit-overflow-scrolling:touch;scroll-behavior:smooth}
+.wrap{position:relative;width:100%}
+.wrap--guttered{padding-right:1.5rem;padding-left:1.5rem}
+.wrap--guttered--s{padding-right:.75rem;padding-left:.75rem}
+.wrap--guttered--l{padding-right:3rem;padding-left:3rem}
+html{font-weight:400;font-family:"IBM Plex Serif",Georgia,Cambria,"Times New Roman",Times,serif;font-size:1rem;line-height:1.5rem;text-align:left;color:#205060}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{margin:2rem 0 1rem}
+h1:first-child,.h1:first-child,h2:first-child,.h2:first-child,h3:first-child,.h3:first-child,h4:first-child,.h4:first-child,h5:first-child,.h5:first-child,h6:first-child,.h6:first-child{margin-top:0}
+h1,.h1{font-weight:700;font-family:"Inter","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;font-size:2rem;line-height:2.5rem}
+
